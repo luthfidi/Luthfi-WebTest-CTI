@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base Styles */
+* {
+    font-family: "Rubik", sans-serif;
+}
+
+/* Header & Navigation */
+header {
+    transition: transform 0.3s ease;
+}
+
+header.nav-hidden {
+    transform: translateY(-100%);
+}
+
+nav {
+    backdrop-filter: blur(1px);
+}
+
+input::placeholder {
+    color: red;
+    opacity: 0.5;
+}
+
+/* Background Sections */
+.hero-section {
+    background: url("/images/bcg1.png") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.about-section {
+    background: url("/images/bcg2.png") no-repeat center center;
+    background-size: cover;
+}
+
+.advantages-section {
+    background: url("/images/bcg3.png") no-repeat center center;
+    background-size: cover;
+}
+
+.features-section {
+    background: url("/images/bcg4.png") no-repeat center center;
+    background-size: cover;
+    background-color: #f8fafc;
+}
+
+.value-section {
+    background: url("/images/bcg5.png") no-repeat center center;
+    background-size: cover;
+}
+
+.customers-section {
+    background: url("/images/bcg6.png") no-repeat center center;
+    background-size: cover;
+}
+
+.explore-section {
+    background: url("/images/bcg7.png") no-repeat center center;
+    background-size: cover;
+    background-color: #f8fafc;
+}
+
+.footer-section {
+    background: url("/images/bcg8.png") no-repeat center center;
+    background-size: cover;
+}
+
+.thank-you-section {
+    min-height: calc(110vh - 100px);
+    background: url("/images/bcg2.png") no-repeat center center;
+    background-size: cover;
+}
+
+/* Language Selector */
+@layer components {
+    .lang-selector {
+        @apply text-white text-sm cursor-pointer;
+    }
+
+    .lang-selector span {
+        @apply px-2;
+    }
+
+    .lang-selector span.active {
+        @apply font-medium;
+    }
+
+    .lang-divider {
+        @apply text-gray-400;
+    }
+}
+
+/* Buttons */
+.green-button {
+    background-color: #00a651;
+}
+
+.green-button:hover {
+    background-color: #009149;
+}
+
+/* Form Elements */
+.custom-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Cards and Icons */
+.advantage-card {
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantage-icon {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 1.5rem;
+}
+
+.feature-icon {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 2rem;
+}
+
+.feature-wrapper {
+    text-align: center;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.check-icon {
+    color: #00a651;
+}
+
+.value-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.value-text {
+    color: #64748b;
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+.title-bar {
+    background-color: #1e3a8a;
+    padding: 1rem 2rem;
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+
+.footer-bar {
+    background-color: #1e3a8a;
+}
+
+.customer-logo {
+    height: 48px;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+
+.customer-logo:hover {
+    transform: scale(1.05);
+}
+
+.explore-card {
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.explore-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.explore-icon {
+    width: 96px;
+    height: 96px;
+    background: linear-gradient(135deg, #1e3a8a 0%, #00a651 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem auto;
+}
+
+.explore-icon img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+/* Social Icons */
+.social-icon img {
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover img {
+    transform: scale(1.1);
+}
+
+/* Additional utility classes */
+@layer utilities {
+    .container-custom {
+        @apply container mx-auto px-4 sm:px-6 lg:px-8;
+    }
+}
