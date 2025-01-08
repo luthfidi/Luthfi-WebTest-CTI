@@ -4,10 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\TrialRequest;
 use App\Models\Trial;
+use Illuminate\Routing\Controller;
 
 class TrialController extends Controller
 {
-    public function store(TrialRequest $request)
+    public function submit(TrialRequest $request)
     {
         // Get validated data
         $validated = $request->validated();
