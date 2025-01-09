@@ -7,8 +7,9 @@
                 <p>Jl. Jendral Gatot Subroto</p>
                 <p>No. Kav 24-25, Jakarta</p>
                 <p>12930 Indonesia</p>
-                <p class="mt-4">Phone: +62 21 8062 2220</p>
-                <p>Email: Tencent@helios.id</p>
+                <br>
+                <p class="mt-4"><strong>Phone:</strong> +62 21 8062 2220</p>
+                <p><strong>Email:</strong> Tencent@helios.id</p>
             </div>
         </div>
         <div class="flex space-x-4 mb-10 pb-6">
