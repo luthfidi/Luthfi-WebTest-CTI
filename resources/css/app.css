@@ -175,8 +175,8 @@ input::placeholder {
 
 .customer-logo {
     height: 48px;
+    width: auto;
     object-fit: contain;
-    transition: all 0.3s ease;
 }
 
 .customer-logo:hover {
