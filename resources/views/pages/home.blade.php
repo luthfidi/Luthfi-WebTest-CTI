@@ -27,7 +27,6 @@
     </div>
 </section>
 
-
     <!-- About Section -->
     <section class="about-section py-20 px-2">
         <div class="container mx-auto px-4 sm:px-6 lg:px-32 max-w-7xl">
@@ -258,198 +257,196 @@
         </div>
     </section>
 
-<!-- Features Section -->
-<section class="features-section py-16">
-    <div class="container mx-auto px-4 md:px-6 lg:px-24">
-        <h2 class="text-3xl lg:text-4xl font-bold text-center text-[#1E3A8A] mb-8 lg:mb-16">
-            {{ __('Sangfor Cyber Command Features') }}
-        </h2>
-
-        <!-- First Row: 3 items -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
-            <div class="feature-wrapper text-center">
-                <img
-                    src="{{ asset('images/img7.png') }}"
-                    alt="Threat Intelligence"
-                    class="feature-icon mx-auto mb-6"
-                    width="150"
-                />
-                <h3 class="text-xl font-bold text-[#1E3A8A] mb-4">
-                    Threat Intelligence
-                </h3>
-                <p class="text-gray-600">
-                    Advanced AI algorithms and machine learning provide comprehensive threat intelligence to stay ahead of the latest cyber threats.
-                </p>
-            </div>
-
-            <div class="feature-wrapper text-center">
-                <img
-                    src="{{ asset('images/img8.png') }}"
-                    alt="Real-Time Detections"
-                    class="feature-icon mx-auto mb-6"
-                    width="150"
-                />
-                <h3 class="text-xl font-bold text-[#1E3A8A] mb-4">
-                    Real-Time Detections
-                </h3>
-                <p class="text-gray-600">
-                    Real-time alert system provides instant notification of potential security incidents.
-                </p>
-            </div>
-
-            <div class="feature-wrapper text-center">
-                <img
-                    src="{{ asset('images/img9.png') }}"
-                    alt="Threats Investigation"
-                    class="feature-icon mx-auto mb-6"
-                    width="150"
-                />
-                <h3 class="text-xl font-bold text-[#1E3A8A] mb-4">
-                    Threats Investigation
-                </h3>
-                <p class="text-gray-600">
-                    In-depth Threat investigation capabilities identify the root cause of security incidents and take appropriate action to prevent future occurrences.
-                </p>
-            </div>
-        </div>
-
-        <!-- Second Row: 2 items -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-start max-w-[650px]">
-            <div class="feature-wrapper text-center">
-                <img
-                    src="{{ asset('images/img10.png') }}"
-                    alt="Comprehensive Security Solutions"
-                    class="feature-icon mx-auto mt-8 mb-6"
-                    width="150"
-                />
-                <h3 class="text-xl font-bold text-[#1E3A8A] mb-4">
-                    Comprehensive Security Solutions
-                </h3>
-                <p class="text-gray-600">
-                    In-depth Threat investigation capabilities identify the root cause of security incidents and take appropriate action to prevent future occurrences.
-                </p>
-            </div>
-            
-            <div class="feature-wrapper text-center">
-                <img
-                    src="{{ asset('images/img11.png') }}"
-                    alt="Rapid Response"
-                    class="feature-icon mx-auto mt-8 mb-6"
-                    width="150"
-                />
-                <h3 class="text-xl font-bold text-[#1E3A8A] mb-4">
-                    Rapid Response
-                </h3>
-                <p class="text-gray-600">
-                    Tight integration with network and endpoint security solutions enables quick response to potential security incidents, minimizing the impact of any attacks.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Customers Reference Section -->
-<section class="customers-section pb-12">
-    <div class="container mx-auto px-6">
-        <div class="text-center">
-            <div class="title-bar inline-block mb-16">
-                <h2 class="text-3xl font-bold text-white">
-                    {{ __('Cyber Command Customers Reference') }}
-                </h2>
-            </div>
-        </div>
-        <div class="flex flex-wrap justify-center gap-12 lg:gap-24">
-            <!-- J&T -->
-            <div>
-                <img 
-                    src="{{ asset('images/img12.png') }}" 
-                    alt="J&T" 
-                    class="customer-logo" 
-                />
-            </div>
-
-            <!-- Jasa Raharja Putera -->
-            <div>
-                <img
-                    src="{{ asset('images/img13.png') }}"
-                    alt="Jasa Raharja Putera Insurance"
-                    class="customer-logo"
-                />
-            </div>
-
-            <!-- OK! BANK -->
-            <div>
-                <img
-                    src="{{ asset('images/img14.png') }}"
-                    alt="OK! BANK Indonesia"
-                    class="customer-logo"
-                />
-            </div>
-
-            <!-- SAMUDERA INDONESIA -->
-            <div>
-                <img
-                    src="{{ asset('images/img15.png') }}"
-                    alt="SAMUDERA INDONESIA"
-                    class="customer-logo"
-                />
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Explore Section -->
-<section class="explore-section py-10">
-    <div class="container mx-auto px-4 md:px-6">
-        <div class="text-center mb-8 md:mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-[#1E3A8A] mb-3 md:mb-4">
-                Explore Sangfor Cyber Command with Helios
+    <!-- Features Section -->
+    <section class="features-section py-16">
+        <div class="container mx-auto px-4 md:px-6 lg:px-24">
+            <h2 class="text-3xl lg:text-4xl font-bold text-center text-[#1E3A8A] mb-8 lg:mb-16">
+                {{ __('Sangfor Cyber Command Features') }}
             </h2>
-            <p class="text-gray-600 text-sm md:text-base">
-                Helios Informatika Nusantara as Sangfor Distributor will provide
-            </p>
+
+            <!-- First Row: 3 items -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+                <div class="feature-wrapper text-center">
+                    <img
+                        src="{{ asset('images/img7.png') }}"
+                        alt="Threat Intelligence"
+                        class="feature-icon mx-auto mb-6"
+                        width="150"
+                    />
+                    <h3 class="text-xl font-bold text-[#1E3A8A] mb-4">
+                        Threat Intelligence
+                    </h3>
+                    <p class="text-gray-600">
+                        Advanced AI algorithms and machine learning provide comprehensive threat intelligence to stay ahead of the latest cyber threats.
+                    </p>
+                </div>
+
+                <div class="feature-wrapper text-center">
+                    <img
+                        src="{{ asset('images/img8.png') }}"
+                        alt="Real-Time Detections"
+                        class="feature-icon mx-auto mb-6"
+                        width="150"
+                    />
+                    <h3 class="text-xl font-bold text-[#1E3A8A] mb-4">
+                        Real-Time Detections
+                    </h3>
+                    <p class="text-gray-600">
+                        Real-time alert system provides instant notification of potential security incidents.
+                    </p>
+                </div>
+
+                <div class="feature-wrapper text-center">
+                    <img
+                        src="{{ asset('images/img9.png') }}"
+                        alt="Threats Investigation"
+                        class="feature-icon mx-auto mb-6"
+                        width="150"
+                    />
+                    <h3 class="text-xl font-bold text-[#1E3A8A] mb-4">
+                        Threats Investigation
+                    </h3>
+                    <p class="text-gray-600">
+                        In-depth Threat investigation capabilities identify the root cause of security incidents and take appropriate action to prevent future occurrences.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Second Row: 2 items -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-start max-w-[650px]">
+                <div class="feature-wrapper text-center">
+                    <img
+                        src="{{ asset('images/img10.png') }}"
+                        alt="Comprehensive Security Solutions"
+                        class="feature-icon mx-auto mt-8 mb-6"
+                        width="150"
+                    />
+                    <h3 class="text-xl font-bold text-[#1E3A8A] mb-4">
+                        Comprehensive Security Solutions
+                    </h3>
+                    <p class="text-gray-600">
+                        In-depth Threat investigation capabilities identify the root cause of security incidents and take appropriate action to prevent future occurrences.
+                    </p>
+                </div>
+                
+                <div class="feature-wrapper text-center">
+                    <img
+                        src="{{ asset('images/img11.png') }}"
+                        alt="Rapid Response"
+                        class="feature-icon mx-auto mt-8 mb-6"
+                        width="150"
+                    />
+                    <h3 class="text-xl font-bold text-[#1E3A8A] mb-4">
+                        Rapid Response
+                    </h3>
+                    <p class="text-gray-600">
+                        Tight integration with network and endpoint security solutions enables quick response to potential security incidents, minimizing the impact of any attacks.
+                    </p>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
-            <!-- NDR Implementation -->
-            <div class="explore-card">
-                <div class="explore-icon w-16 h-16 md:w-24 md:h-24">
-                    <img src="{{ asset('images/img16.png') }}" alt="NDR Implementation" 
-                        class="w-8 h-8 md:w-12 md:h-12" />
+    <!-- Customers Reference Section -->
+    <section class="customers-section pb-12">
+        <div class="container mx-auto px-6">
+            <div class="text-center">
+                <div class="title-bar inline-block mb-16">
+                    <h2 class="text-3xl font-bold text-white">
+                        {{ __('Cyber Command Customers Reference') }}
+                    </h2>
                 </div>
-                <h3 class="text-lg md:text-xl font-bold text-[#1E3A8A]">
-                    NDR Implementation
-                </h3>
             </div>
-
-            <!-- Incident Response -->
-            <div class="explore-card">
-                <div class="explore-icon w-16 h-16 md:w-24 md:h-24">
-                    <img src="{{ asset('images/img17.png') }}" alt="Incident Response" 
-                        class="w-8 h-8 md:w-12 md:h-12" />
+            <div class="flex flex-wrap justify-center gap-12 lg:gap-24">
+                <!-- J&T -->
+                <div>
+                    <img 
+                        src="{{ asset('images/img12.png') }}" 
+                        alt="J&T" 
+                        class="customer-logo" 
+                    />
                 </div>
-                <h3 class="text-lg md:text-xl font-bold text-[#1E3A8A]">
-                    Incident Response<br />and Threat Hunting
-                </h3>
-            </div>
 
-            <!-- Device Security -->
-            <div class="explore-card">
-                <div class="explore-icon w-16 h-16 md:w-24 md:h-24">
-                    <img src="{{ asset('images/img18.png') }}" alt="Device Security" 
-                        class="w-8 h-8 md:w-12 md:h-12" />
+                <!-- Jasa Raharja Putera -->
+                <div>
+                    <img
+                        src="{{ asset('images/img13.png') }}"
+                        alt="Jasa Raharja Putera Insurance"
+                        class="customer-logo"
+                    />
                 </div>
-                <h3 class="text-lg md:text-xl font-bold text-[#1E3A8A]">
-                    Device Security<br />Maintenance
-                </h3>
+
+                <!-- OK! BANK -->
+                <div>
+                    <img
+                        src="{{ asset('images/img14.png') }}"
+                        alt="OK! BANK Indonesia"
+                        class="customer-logo"
+                    />
+                </div>
+
+                <!-- SAMUDERA INDONESIA -->
+                <div>
+                    <img
+                        src="{{ asset('images/img15.png') }}"
+                        alt="SAMUDERA INDONESIA"
+                        class="customer-logo"
+                    />
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <!-- Explore Section -->
+    <section class="explore-section py-10">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="text-center mb-8 md:mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#1E3A8A] mb-3 md:mb-4">
+                    Explore Sangfor Cyber Command with Helios
+                </h2>
+                <p class="text-gray-600 text-sm md:text-base">
+                    Helios Informatika Nusantara as Sangfor Distributor will provide
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+                <!-- NDR Implementation -->
+                <div class="explore-card">
+                    <div class="explore-icon w-16 h-16 md:w-24 md:h-24">
+                        <img src="{{ asset('images/img16.png') }}" alt="NDR Implementation" 
+                            class="w-8 h-8 md:w-12 md:h-12" />
+                    </div>
+                    <h3 class="text-lg md:text-xl font-bold text-[#1E3A8A]">
+                        NDR Implementation
+                    </h3>
+                </div>
+
+                <!-- Incident Response -->
+                <div class="explore-card">
+                    <div class="explore-icon w-16 h-16 md:w-24 md:h-24">
+                        <img src="{{ asset('images/img17.png') }}" alt="Incident Response" 
+                            class="w-8 h-8 md:w-12 md:h-12" />
+                    </div>
+                    <h3 class="text-lg md:text-xl font-bold text-[#1E3A8A]">
+                        Incident Response<br />and Threat Hunting
+                    </h3>
+                </div>
+
+                <!-- Device Security -->
+                <div class="explore-card">
+                    <div class="explore-icon w-16 h-16 md:w-24 md:h-24">
+                        <img src="{{ asset('images/img18.png') }}" alt="Device Security" 
+                            class="w-8 h-8 md:w-12 md:h-12" />
+                    </div>
+                    <h3 class="text-lg md:text-xl font-bold text-[#1E3A8A]">
+                        Device Security<br />Maintenance
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
 
 @push('scripts')
-<script>
-    // Add any JavaScript needed for the home page
-</script>
+
 @endpush
